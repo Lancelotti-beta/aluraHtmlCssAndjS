@@ -1,0 +1,19 @@
+body{
+  margin: 0;
+  padding: 20px 20px;
+
+  font-family: "Arial", "Helvetica", sans-serif;
+}
+
+h1 {
+  background-image: url(../img/sobre-background.jpg);
+}
+
+p{
+  text-align: left;
+
+  line-height: 15px; /* tamanho da altura de cada linha */
+  letter-spacing: 3px;  /* tamanho do espaço entre cada letra */
+  word-spacing: 5px; /* tamanho do espaço entre cada palavra */
+  text-indent: 30px; /* tamanho da margem da primeira linha do texto */
+}

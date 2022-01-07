@@ -1,0 +1,36 @@
+body{
+  margin: 0;
+  padding: 20px;
+
+  color: #333333;
+  font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+}
+
+h1{
+  background: url(../img/sobre-background.jpg);
+}
+
+h2{
+  border-bottom: 2px solid #333333;
+}
+
+figure{
+  background-color: #F2EDED;
+  border: 1px groove #CCC;
+
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+
+figcaption{
+  font-style: italic;
+  margin: 20px;
+  display: flex;
+}
+
+img{
+  margin: 20px;
+  border-radius: 10px;
+
+}
