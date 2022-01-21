@@ -1,36 +1,102 @@
 body{
-  margin: 0;
-  padding: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 940px;
 
   color: #333333;
   font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
 }
 
+/* Corpo da pagina */
+
 h1{
   background: url(../img/sobre-background.jpg);
+  padding: 10px;
 }
 
 h2{
   border-bottom: 2px solid #333333;
+  margin-top: 50px;
 }
 
-figure{
+p{
+  padding: 0 45px;
+  text-indent: 15px;
+  text-align: justify;
+
+}
+
+/* Imagem e titulo do galpão */
+.borda-galpao{
   background-color: #F2EDED;
   border: 1px groove #CCC;
 
   border-radius: 10px;
   display: flex;
   justify-content: space-between;
+
+  padding: 15px;
+  margin: 30px;
 }
 
-figcaption{
+.imagem-galpao{
+  margin: 10px;
+  border-radius: 5px;
+
+}
+
+.descricao-galpao{
   font-style: italic;
-  margin: 20px;
+  margin-top: 10px;
+  align-items: flex-end;
+
   display: flex;
 }
 
-img{
-  margin: 20px;
+/* Imagem familia Penho */
+
+#imagem-fPenho{
+  float: right;
+  margin: 0 0 10px 10px;
+
+  background-color: #F2EDED;
+
+  border: 1px groove #CCC;
   border-radius: 10px;
 
+  padding: 15px;
+  margin: 30px;
+
+  text-align: right;
+}
+
+#imagem-fPenho img{
+  border-radius: 5px;
+}
+
+/* lista da pagina */
+
+.conatiner-lista{
+  margin-bottom: 30px;
+}
+
+/* Rodapé da pagina  */
+footer{
+  margin-top: 50px;
+  padding: 50px 0;
+
+  text-align: center;
+}
+
+.rodape p{
+  color: #777;
+  margin: 15px 0;
+  padding: 15px 0;
+  text-align: center;
+}
+
+.rodape img{
+  margin: 10px 0;
+  padding: 10px 0;
+  width: 94px;
 }
