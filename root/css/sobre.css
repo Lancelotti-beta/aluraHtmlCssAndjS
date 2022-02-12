@@ -1,52 +1,79 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,300;0,400;0,500;0,700;0,800;1,100;1,300;1,400;1,500;1,700;1,800&display=swap');
 
+.container{
+  position: relative;
 
-body{
+  width: 100%;
+  max-width: 940px;
 
-  color: #333333;
-  font-family: 'Montserrat', sans-serif;
+  margin: 2rem auto;
 }
 
-/* Corpo da pagina */
+/* ============= Cabeçalho da pagina ===================== */
 
-header{
+.menu-mirror-fashion{
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+
+.sacola{
+  background-image: url(../img/sacola.png);
+  background-repeat: no-repeat;
+  background-position: top right;
+
+  position: absolute;
+  top: 0;
+  right: 0;
+
+  font-size: 1.4rem;
+  padding-right: 3.5rem;
+  text-align: right;
+  width: 140px;
+}
+
+.menu-mirror-fashion ul{
+  font-size: 1.5rem;
+}
+
+.menu-mirror-fashion a{
+  color: #036;
+}
+
+.menu-mirror-fashion ul li{
+  display: inline;
+  margin-left: 2rem;
+}
+
+.sacola{
+  padding-top: 0.8rem;
+}
+
+
+/* ============= Corpo da pagina ===================== */
+
+.container-localizacao,
+.container-historia,
+.conatiner-lista{
+  width: 100%;
+  max-width: 940px;
+
   margin-left: auto;
   margin-right: auto;
-  width: 940px;
-}
-
-.container-localizacao, .container-historia, .conatiner-lista{
-  width: 940px;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-h1{
-  background: url(../img/sobre-background.jpg);
-  padding: 0 1em;
-  margin: 0 1em;
-
-  font-weight: 700;
-}
-
-img{
-  padding: 1em 1em;
-  margin: 1em;
 }
 
 h2{
   border-bottom: 2px solid #333333;
-  margin-top: 50px;
+  margin-top: 5rem;
 
-  font-weight: 300;
+  font-weight: 600;
 }
 
 p{
-  padding: 0 3em;
-  text-indent: 1;
-  text-align: justify;
+  text-indent: 1rem;
 
-  font-weight: 300;
+  text-align: justify;
+  font-size: 1.6 rem;
+  padding: 1rem;
 }
 
 /* Imagem e titulo do galpão */
@@ -58,19 +85,19 @@ p{
   display: flex;
   justify-content: space-between;
 
-  padding: 15px;
-  margin: 30px;
+  padding: 1.5rem;
+  margin: 3rem;
 }
 
 .imagem-galpao{
-  margin: 10px;
+  margin: 1rem;
   border-radius: 5px;
 
 }
 
 .descricao-galpao{
   font-style: italic;
-  margin-top: 10px;
+  margin-top: 1rem;
   align-items: flex-end;
 
   display: flex;
@@ -80,15 +107,15 @@ p{
 
 #imagem-fPenho{
   float: right;
-  margin: 0 0 10px 10px;
+  margin: 0 0 1rem 1rem;
 
   background-color: #F2EDED;
 
   border: 1px groove #CCC;
   border-radius: 10px;
 
-  padding: 15px;
-  margin: 30px;
+  padding: 1.5rem;
+  margin: 3rem;
 
   text-align: right;
 }
@@ -101,25 +128,28 @@ p{
 
 .conatiner-lista{
   margin-bottom: 30px;
+
+  font-size: 1.6 rem;
+  padding: 1rem;
 }
 
 /* Rodapé da pagina  */
 footer{
-  margin-top: 50px;
-  padding: 50px 0;
+  margin-top: 5rem;
+  padding: 5rem 0;
 
   text-align: center;
 }
 
 .rodape p{
   color: #777;
-  margin: 15px 0;
-  padding: 15px 0;
+  margin: 1.5rem 0;
+  padding: 1.5rem 0;
   text-align: center;
 }
 
 .rodape img{
-  margin: 10px 0;
-  padding: 10px 0;
+  margin: 1rem 0;
+  padding: 1rem 0;
   width: 94px;
 }
