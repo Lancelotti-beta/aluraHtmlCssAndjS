@@ -52,4 +52,62 @@ ul li{
 .item-menu{
   color: #036;
   text-decoration: none;
+
 }
+
+/* ============= Menu da pagina e botão de busca ===================== */
+
+.busca,
+.menu-departamentos{
+  background-color: #DCDCDC;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin-right: 1rem;
+  width: 23rem;
+}
+
+.busca h2,
+.busca form,
+.menu-departamentos h2{
+  margin: 1rem;
+}
+
+.menu-departamentos li{
+  background-color: white;
+  margin-bottom: 0.1rem;
+  padding: 0.5rem 1rem;
+
+  display: inline-block;
+  vertical-align: top;
+  width: 14rem;
+}
+
+.menu-departamentos a{
+  color: #333333;
+  text-decoration: none;
+
+  
+}
+
+.busca input[type=search]{
+  width: 17rem;
+}
+
+.busca,
+.menu-departamentos{
+  float: left;
+}
+
+.menu-departamentos{
+  clear: left;
+}
+
+.destaque{
+  margin-top: 1rem;
+}
+
+.menu-departamentos{
+  margin-top: 1rem;
+  padding-bottom: 1rem;
+}
+
