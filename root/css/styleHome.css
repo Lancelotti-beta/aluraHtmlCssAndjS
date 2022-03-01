@@ -2,7 +2,10 @@
 /* ============= Cabeçalho da pagina ===================== */
 
 .container{
-  margin: 0 auto;
+  margin-left: auto;
+  margin-right: auto;
+
+  /*margin: 0 auto;*/
 
   position: relative;
 
@@ -42,7 +45,7 @@
   right: 0;
 }
 
-ul li{
+.menu-mirror-fashion ul li{
   display: inline;
 
   padding: 0 0.5rem;
@@ -59,11 +62,21 @@ ul li{
 
 .busca,
 .menu-departamentos{
+  float: left;
+
   background-color: #DCDCDC;
   font-weight: bold;
   text-transform: uppercase;
   margin-right: 1rem;
-  width: 23rem;
+
+  width: 220px;
+}
+
+.menu-departamentos{
+  clear: left;
+
+  margin-top: 1rem;
+  padding-bottom: 1rem;
 }
 
 .busca h2,
@@ -79,7 +92,9 @@ ul li{
 
   display: inline-block;
   vertical-align: top;
-  width: 14rem;
+
+  width: auto;
+  max-width: 170px;
 }
 
 .menu-departamentos a{
@@ -90,24 +105,62 @@ ul li{
 }
 
 .busca input[type=search]{
-  width: 17rem;
-}
-
-.busca,
-.menu-departamentos{
-  float: left;
-}
-
-.menu-departamentos{
-  clear: left;
+  width: auto;
+  max-width: 170px;
 }
 
 .destaque{
   margin-top: 1rem;
 }
 
-.menu-departamentos{
-  margin-top: 1rem;
+/* =============  Produtos da pagina ===================== */
+
+.painel{
+  margin: 1rem 0;
+  padding: 1rem;
+  
+  width: auto;
+  max-width: 445px;
+}
+
+.novidades{
+  float: left;
+}
+
+.mais-vendidos{
+  float: right;
+}
+
+.painel li{
+  display: inline-block;
+  vertical-align: top;
+
+  width: auto;
+  max-width: 140px;
+  
+  margin: 0.2rem;
   padding-bottom: 1rem;
 }
 
+.painel h2{
+  font-size: 2.2rem;
+  font-weight: bold;
+  text-transform: uppercase;
+
+  margin-bottom: 1rem;
+}
+
+.painel a{
+  color: #333;
+  font-size: 1.2rem;
+  text-align: center;
+  text-decoration: none;
+}
+
+.novidades{
+  background-color: #F5DCDC;
+}
+
+.mais-vendidos{
+  background-color: #DCDCF5;
+}
