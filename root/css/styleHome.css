@@ -2,10 +2,7 @@
 /* ============= Cabeçalho da pagina ===================== */
 
 .container{
-  margin-left: auto;
-  margin-right: auto;
-
-  /*margin: 0 auto;*/
+  margin: 0 auto;
 
   position: relative;
 
@@ -69,9 +66,9 @@
   font-weight: 700;
   text-transform: uppercase;
 
-  margin-right: 1rem;
+  margin-right: .9rem;
 
-  width: 220px;
+  width: 230px;
 }
 
 .menu-departamentos{
@@ -87,28 +84,25 @@
   margin: 1rem;
 }
 
+
 .menu-departamentos li{
   background-color: white;
+
   margin-bottom: 0.1rem;
   padding: 0.5rem 1rem;
 
-  display: inline-block;
-  vertical-align: top;
-
-  width: auto;
-  max-width: 170px;
+  /*display: block;
+  vertical-align: top; */
 }
 
 .menu-departamentos a{
   color: #333333;
   text-decoration: none;
-
   
 }
 
 .busca input[type=search]{
-  width: auto;
-  max-width: 170px;
+  width: 170px;
 }
 
 .destaque{
@@ -121,8 +115,7 @@
   margin: 1rem 0;
   padding: 1rem;
   
-  width: auto;
-  max-width: 445px;
+  width: 445px;
 }
 
 .novidades{
@@ -137,16 +130,15 @@
   display: inline-block;
   vertical-align: top;
 
-  width: auto;
-  max-width: 140px;
+  width: 140px;
   
-  margin: 0.2rem;
+  margin: .2rem;
   padding-bottom: 1rem;
 }
 
 .painel h2{
   font-size: 2.2rem;
-  font-weight: bold;
+  font-weight: 700;
   text-transform: uppercase;
 
   margin-bottom: 1rem;
@@ -154,7 +146,8 @@
 
 .painel a{
   color: #333;
-  font-size: 1.2rem;
+
+  font-size: 1.4rem;
   text-align: center;
   text-decoration: none;
 }
