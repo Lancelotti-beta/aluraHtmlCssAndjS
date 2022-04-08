@@ -65,8 +65,10 @@
   float: left;
 
   background-color: #DCDCDC;
-  font-weight: bold;
+
+  font-weight: 700;
   text-transform: uppercase;
+
   margin-right: 1rem;
 
   width: 220px;

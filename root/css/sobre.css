@@ -66,13 +66,16 @@ h2{
   margin-top: 5rem;
 
   font-weight: 600;
+  font-size: 2.5rem;
 }
 
 p{
   text-indent: 1rem;
-
   text-align: justify;
-  font-size: 1.6 rem;
+
+  font-weight: 300;
+  font-size: 1.3rem;
+
   padding: 1rem;
 }
 
@@ -129,8 +132,14 @@ p{
 .conatiner-lista{
   margin-bottom: 30px;
 
-  font-size: 1.6 rem;
-  padding: 1rem;
+}
+
+.conatiner-lista ul li{
+  font-weight: 300;
+  font-size: 1.3rem;
+
+  padding: .8rem;
+  margin: 0 1rem;
 }
 
 /* Rodapé da pagina  */
